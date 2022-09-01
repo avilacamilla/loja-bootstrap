@@ -63,7 +63,7 @@
 
                 </div>
     </nav>
-    <header>
+    <header class="container">
             <!-- Input busca de produtos -->
             <div class="container-fluid">
                 <form class="d-flex" role="search">
@@ -72,6 +72,29 @@
                 </form>
             </div>
 
+            <div id="carouselMain" class="carousel carousel-dark slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselMain" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselMain" data-slide-to="1" class="active"></li>
+                    <li data-target="#carouselMain" data-slide-to="2" class="active"></li>
+                </ol>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active text-center" data-interval="3000">
+                    <img src="imgs/slide-banner.png" alt="#" class="img-fluid d-none d-md-block">
+                    <img src="imgs/slide-small.png" alt="#" class="img-fluid d-none d-block d-md-none">
+                </div>
+                <div class="carousel-item text-center" data-interval="3000">
+                    <img src="imgs/slide-banner.png" alt="#" class="img-fluid d-none d-md-block">
+                    <img src="imgs/slide-small.png" alt="#" class="img-fluid d-none d-block d-md-none">
+                </div>
+                <div class="carousel-item text-center" data-interval="3000">
+                    <img src="imgs/slide-banner.png" alt="#" class="img-fluid d-none d-md-block">
+                    <img src="imgs/slide-small.png" alt="#" class="img-fluid d-none d-block d-md-none">
+                </div>
+            </div>
+            </div>
+            <hr class="mt-3">
     </header>
 
     <main>
@@ -82,7 +105,7 @@
         <div class="container">
             <div class="row py-3">
                 <div class="col-12 col-md-4 text-center text-md-left">
-                    &copy; 2022 - Borcelle, o seu Hortifruti online.
+                    &copy; 2022 - Borcelle, o seu hortifruti online.
                 </div>
                 <div class="col-12 col-md-4 text-center">
                     <a href="#" class="text-decoration-none text-dark">Política de Privacidade</a>
@@ -90,10 +113,8 @@
                 <div class="col-12 col-md-4 text-center text-md-right">
                     <a href="#" class="text-decoration-none text-dark">Administrar</a>
                 </div>
-
             </div>
         </div>
-
    </footer>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
